@@ -1,14 +1,12 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
 using InterviewPreparationKit.Arrays.Services.ArrayLeftRotation;
+using InterviewPreparationKit.Arrays.Tests.Utils;
 using Xunit;
 
 namespace InterviewPreparationKit.Arrays.Tests
 {
     public class ArrayLeftRotationTest
     {
-        private const char Separator = ' ';
-        
         private readonly IArrayLeftRotation _arrayLeftRotation;
 
         public ArrayLeftRotationTest()
@@ -49,9 +47,9 @@ namespace InterviewPreparationKit.Arrays.Tests
         [MemberData(nameof(TestData))]
         public void WhenResultIsSuccess(string input, int rotations, string expected)
         {
-            var inputList = input.Split(Separator).Select(int.Parse).ToList();
+            var inputList = StringToListConverterUtil.GetIntList(input);
             var arrayRotate = _arrayLeftRotation.Rotate(inputList, rotations);
-            var actual = string.Join(Separator, arrayRotate);
+            var actual = string.Join(StringToListConverterUtil.DefaultSeparator, arrayRotate);
             Assert.Equal(expected, actual);
         }
     }
