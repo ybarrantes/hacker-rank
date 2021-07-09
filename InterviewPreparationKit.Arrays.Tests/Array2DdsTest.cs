@@ -1,18 +1,15 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
 using InterviewPreparationKit.Arrays.Services.Array2Dds;
+using InterviewPreparationKit.Arrays.Tests.Utils;
 using Xunit;
 
 namespace InterviewPreparationKit.Arrays.Tests
 {
-    public class Array2DDSTest
+    public class Array2DdsTest
     {
-        private const char Separator = ' ';
-        private const char BreakLine = '|';
-
         private readonly IArray2Dds _array2Dds;
 
-        public Array2DDSTest()
+        public Array2DdsTest()
         {
             _array2Dds = new Array2Dds();
         }
@@ -29,11 +26,7 @@ namespace InterviewPreparationKit.Arrays.Tests
         [MemberData(nameof(TestData))]
         public void WhenIsSuccess(string input, int expected)
         {
-            var list = input.Split(BreakLine).ToList();
-            var inputList = list
-                .Select(x => 
-                    x.Split(Separator).Select(int.Parse).ToList()
-                    ).ToList();
+            var inputList = StringToListConverterUtil.GetInt2DList(input);
             var actual = _array2Dds.GetHourglassSum(inputList);
             Assert.Equal(expected, actual);
         }

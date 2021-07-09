@@ -23,4 +23,15 @@
       <ProjectReference Include="..\InterviewPreparationKit.Arrays.Services\InterviewPreparationKit.Arrays.Services.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <None Remove="Inputs\ArrayManipulation.001.txt" />
+      <Content Include="Inputs\ArrayManipulation.001.txt">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <None Remove="Inputs\NewYearChaos.001.txt" />
+      <Content Include="Inputs\NewYearChaos.001.txt">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+
 </Project>

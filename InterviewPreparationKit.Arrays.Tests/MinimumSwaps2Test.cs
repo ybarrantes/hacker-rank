@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
 using InterviewPreparationKit.Arrays.Services.MinimumSwaps2;
+using InterviewPreparationKit.Arrays.Tests.Utils;
 using Xunit;
 
 namespace InterviewPreparationKit.Arrays.Tests
@@ -29,7 +29,7 @@ namespace InterviewPreparationKit.Arrays.Tests
         [MemberData(nameof(TestData))]
         public void WhenIsSuccess(string input, int expected)
         {
-            var inputList = input.Split(Separator).Select(int.Parse).ToArray();
+            var inputList = StringToListConverterUtil.GetIntList(input).ToArray();
             var actual = _minimumSwaps2.GetMinimumSwaps(inputList);
             Assert.Equal(expected, actual);
         }
