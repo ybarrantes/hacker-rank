@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace InterviewPreparationKit.Arrays.Tests.Utils
+namespace Utils
 {
     public static class StringToListConverterUtil
     {

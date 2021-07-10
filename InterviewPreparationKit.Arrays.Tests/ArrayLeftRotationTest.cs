@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using InterviewPreparationKit.Arrays.Services.ArrayLeftRotation;
-using InterviewPreparationKit.Arrays.Tests.Utils;
+using Utils;
 using Xunit;
 
 namespace InterviewPreparationKit.Arrays.Tests
