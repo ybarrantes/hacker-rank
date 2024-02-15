@@ -1,9 +1,6 @@
 ﻿using System.Collections.Generic;
-using HackerRank.Shared.Utils;
-using HackerRank.InterviewPreparationKit.Arrays.Services.MinimumSwaps2;
-using Xunit;
 
-namespace HackerRank.InterviewPreparationKit.Arrays.Tests;
+namespace HackerRank.InterviewPreparationKit.Arrays.UnitTests.Tests;
 
 public class MinimumSwaps2Test
 {

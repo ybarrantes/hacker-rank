@@ -1,4 +1,6 @@
-﻿namespace HackerRank.InterviewPreparationKit.Arrays.Services.MinimumSwaps2;
+﻿using HackerRank.InterviewPreparationKit.Arrays.Contracts;
+
+namespace HackerRank.InterviewPreparationKit.Arrays;
 
 public class MinimumSwaps2 : IMinimumSwaps2
 {

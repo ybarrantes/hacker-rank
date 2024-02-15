@@ -1,9 +1,4 @@
-﻿using System.Collections.Generic;
-using HackerRank.Shared.Utils;
-using HackerRank.InterviewPreparationKit.Arrays.Services.ArrayManipulation;
-using Xunit;
-
-namespace HackerRank.InterviewPreparationKit.Arrays.Tests;
+﻿namespace HackerRank.ProblemSolving.Algorithms.DataStructures.Arrays.UnitTests.Tests;
 
 public class ArrayManipulationTest
 {

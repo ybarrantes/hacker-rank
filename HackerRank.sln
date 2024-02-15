@@ -1,12 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Interview Preparation Kit", "01. Interview Preparation Kit", "{728510B3-A917-4473-AA8E-E96D088FB4C9}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interview Preparation Kit", "Interview Preparation Kit", "{728510B3-A917-4473-AA8E-E96D088FB4C9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Arrays", "Arrays", "{25465EBB-C151-47A5-9C27-F8F487379B9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRank.InterviewPreparationKit.Arrays.Services", "src\InterviewPreparationKit\HackerRank.InterviewPreparationKit.Arrays.Services\HackerRank.InterviewPreparationKit.Arrays.Services.csproj", "{94FADBB4-78CB-4E54-AB1A-02476B646932}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRank.InterviewPreparationKit.Arrays", "src\InterviewPreparationKit\HackerRank.InterviewPreparationKit.Arrays\HackerRank.InterviewPreparationKit.Arrays.csproj", "{94FADBB4-78CB-4E54-AB1A-02476B646932}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRank.InterviewPreparationKit.Arrays.Tests", "src\InterviewPreparationKit\HackerRank.InterviewPreparationKit.Arrays.Tests\HackerRank.InterviewPreparationKit.Arrays.Tests.csproj", "{51F0D3DF-B379-4E4D-991B-983F56A73709}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRank.InterviewPreparationKit.Arrays.UnitTests", "src\InterviewPreparationKit\HackerRank.InterviewPreparationKit.Arrays.UnitTests\HackerRank.InterviewPreparationKit.Arrays.UnitTests.csproj", "{51F0D3DF-B379-4E4D-991B-983F56A73709}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sorting", "Sorting", "{F695FCE7-A9B1-4898-B69A-0FAF5A0B6BC8}"
 EndProject
@@ -14,9 +14,25 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRank.InterviewPrepara
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRank.InterviewPreparationKit.Sorting.Services", "src\InterviewPreparationKit\HackerRank.InterviewPreparationKit.Sorting.Services\HackerRank.InterviewPreparationKit.Sorting.Services.csproj", "{4E55DAF0-7DEC-4971-818B-0AF4B852D3A7}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "99. Shared", "99. Shared", "{593DC74C-DAB7-47C6-A32F-06CC9BE9E71C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{593DC74C-DAB7-47C6-A32F-06CC9BE9E71C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRank.Shared.Utils", "src\Shared\HackerRank.Shared.Utils\HackerRank.Shared.Utils.csproj", "{D621E8C0-3F39-4546-9B45-A23E94A3BFBD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Problem Solving", "Problem Solving", "{1B9FFB7E-1CEE-462A-A6FE-8D94970ADF57}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProjectEuler", "ProjectEuler", "{81A2E253-F194-4E97-902F-6EC5D58D0B3A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Challenges", "Challenges", "{B946CA17-94FB-427B-AD3E-DD3E9FE0C647}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Algorithms", "Algorithms", "{73266836-F9C2-49CF-BA5B-B1A92FB96A70}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data Structures", "Data Structures", "{47AA024A-D6A2-4EF0-9411-5CFC5EEB4ECE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRank.ProblemSolving.Algorithms.DataStructures.Arrays", "src\ProblemSolving\HackerRank.ProblemSolving.Algorithms.DataStructures.Arrays\HackerRank.ProblemSolving.Algorithms.DataStructures.Arrays.csproj", "{9AEDA470-4B4E-4DC7-9D14-EBB1CD48A12A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Arrays", "Arrays", "{4641B559-06A5-4A9A-A936-7B9F2A8377E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRank.ProblemSolving.Algorithms.DataStructures.Arrays.UnitTests", "src\ProblemSolving\HackerRank.ProblemSolving.Algorithms.DataStructures.Arrays.UnitTests\HackerRank.ProblemSolving.Algorithms.DataStructures.Arrays.UnitTests.csproj", "{22407F63-BAF3-45D4-910A-512397F160E8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +47,14 @@ Global
 		{22826BEA-F2D2-430D-9AD4-635D2120820C} = {F695FCE7-A9B1-4898-B69A-0FAF5A0B6BC8}
 		{4E55DAF0-7DEC-4971-818B-0AF4B852D3A7} = {F695FCE7-A9B1-4898-B69A-0FAF5A0B6BC8}
 		{D621E8C0-3F39-4546-9B45-A23E94A3BFBD} = {593DC74C-DAB7-47C6-A32F-06CC9BE9E71C}
+		{728510B3-A917-4473-AA8E-E96D088FB4C9} = {B946CA17-94FB-427B-AD3E-DD3E9FE0C647}
+		{1B9FFB7E-1CEE-462A-A6FE-8D94970ADF57} = {B946CA17-94FB-427B-AD3E-DD3E9FE0C647}
+		{81A2E253-F194-4E97-902F-6EC5D58D0B3A} = {B946CA17-94FB-427B-AD3E-DD3E9FE0C647}
+		{73266836-F9C2-49CF-BA5B-B1A92FB96A70} = {1B9FFB7E-1CEE-462A-A6FE-8D94970ADF57}
+		{47AA024A-D6A2-4EF0-9411-5CFC5EEB4ECE} = {73266836-F9C2-49CF-BA5B-B1A92FB96A70}
+		{4641B559-06A5-4A9A-A936-7B9F2A8377E3} = {47AA024A-D6A2-4EF0-9411-5CFC5EEB4ECE}
+		{9AEDA470-4B4E-4DC7-9D14-EBB1CD48A12A} = {4641B559-06A5-4A9A-A936-7B9F2A8377E3}
+		{22407F63-BAF3-45D4-910A-512397F160E8} = {4641B559-06A5-4A9A-A936-7B9F2A8377E3}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{94FADBB4-78CB-4E54-AB1A-02476B646932}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -53,5 +77,13 @@ Global
 		{D621E8C0-3F39-4546-9B45-A23E94A3BFBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D621E8C0-3F39-4546-9B45-A23E94A3BFBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D621E8C0-3F39-4546-9B45-A23E94A3BFBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AEDA470-4B4E-4DC7-9D14-EBB1CD48A12A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AEDA470-4B4E-4DC7-9D14-EBB1CD48A12A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AEDA470-4B4E-4DC7-9D14-EBB1CD48A12A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AEDA470-4B4E-4DC7-9D14-EBB1CD48A12A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22407F63-BAF3-45D4-910A-512397F160E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22407F63-BAF3-45D4-910A-512397F160E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22407F63-BAF3-45D4-910A-512397F160E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22407F63-BAF3-45D4-910A-512397F160E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

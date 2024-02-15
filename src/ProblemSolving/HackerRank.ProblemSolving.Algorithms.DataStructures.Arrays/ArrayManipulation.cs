@@ -1,7 +1,6 @@
-﻿using System.Collections.Generic;
-using System.Linq;
+﻿using HackerRank.ProblemSolving.Algorithms.DataStructures.Arrays.Contracts;
 
-namespace HackerRank.InterviewPreparationKit.Arrays.Services.ArrayManipulation;
+namespace HackerRank.ProblemSolving.Algorithms.DataStructures.Arrays;
 
 public class ArrayManipulation : IArrayManipulation
 {

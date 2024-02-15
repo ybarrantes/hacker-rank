@@ -1,6 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using HackerRank.ProblemSolving.Algorithms.DataStructures.Arrays.Contracts;
 
-namespace HackerRank.InterviewPreparationKit.Arrays.Services.Array2Dds;
+namespace HackerRank.ProblemSolving.Algorithms.DataStructures.Arrays;
 
 public class Array2Dds : IArray2Dds
 {

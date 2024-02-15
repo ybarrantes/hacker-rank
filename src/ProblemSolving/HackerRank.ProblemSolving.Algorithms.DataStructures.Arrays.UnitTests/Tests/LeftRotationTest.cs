@@ -1,17 +1,12 @@
-﻿using System.Collections.Generic;
-using HackerRank.Shared.Utils;
-using HackerRank.InterviewPreparationKit.Arrays.Services.ArrayLeftRotation;
-using Xunit;
+﻿namespace HackerRank.ProblemSolving.Algorithms.DataStructures.Arrays.UnitTests.Tests;
 
-namespace HackerRank.InterviewPreparationKit.Arrays.Tests;
-
-public class ArrayLeftRotationTest
+public class LeftRotationTest
 {
     private readonly IArrayLeftRotation _arrayLeftRotation;
 
-    public ArrayLeftRotationTest()
+    public LeftRotationTest()
     {
-        _arrayLeftRotation = new ArrayLeftRotation();
+        _arrayLeftRotation = new LeftRotation();
     }
         
     public static IEnumerable<object[]> TestData() =>

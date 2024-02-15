@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace HackerRank.InterviewPreparationKit.Arrays.Services.NewYearChaos;
+namespace HackerRank.InterviewPreparationKit.Arrays.Contracts;
 
 public interface INewYearChaos
 {

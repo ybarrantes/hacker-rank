@@ -1,9 +1,8 @@
-﻿using System.Collections.Generic;
-using System.Linq;
+﻿using HackerRank.ProblemSolving.Algorithms.DataStructures.Arrays.Contracts;
 
-namespace HackerRank.InterviewPreparationKit.Arrays.Services.ArrayLeftRotation;
+namespace HackerRank.ProblemSolving.Algorithms.DataStructures.Arrays;
 
-public class ArrayLeftRotation : IArrayLeftRotation
+public class LeftRotation : IArrayLeftRotation
 {
     /*
      * Complete the 'rotLeft' function below.
